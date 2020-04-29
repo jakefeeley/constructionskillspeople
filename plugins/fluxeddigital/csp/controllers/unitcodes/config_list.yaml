@@ -1,0 +1,12 @@
+title: UnitCodes
+modelClass: FluxedDigital\Csp\Models\UnitCode
+list: $/fluxeddigital/csp/models/unitcode/columns.yaml
+recordUrl: 'fluxeddigital/csp/unitcodes/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

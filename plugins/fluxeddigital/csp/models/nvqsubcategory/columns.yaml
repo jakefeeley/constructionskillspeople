@@ -1,0 +1,13 @@
+columns:
+    name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    nvq_category_id:
+        label: Category
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: nvq_category

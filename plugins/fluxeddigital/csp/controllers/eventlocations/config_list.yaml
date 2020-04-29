@@ -1,0 +1,12 @@
+list: $/fluxeddigital/csp/models/eventlocation/columns.yaml
+modelClass: FluxedDigital\Csp\Models\EventLocation
+title: EventLocations
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'fluxeddigital/csp/eventlocations/update/:id'

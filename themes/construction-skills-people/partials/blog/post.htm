@@ -1,0 +1,60 @@
+description = "Displays single post"
+==
+{% set authorName = post.user.full_name %}
+
+<section class="blog-details section-padding">
+    <div class="container">
+        <div class="blog-details-wrap">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card-item blog-card">
+                        <div class="card-image">
+                            <a href="blog-single.html" class="card__img">
+                                {% for image in post.featured_images %}
+                                    <img
+                                        data-src="{{ image.filename }}"
+                                        src="{{ image.path }}"
+                                        alt="{{ image.description }}"
+                                        style="max-width: 100%" />
+                                {% endfor %}
+                            </a>
+                            <div class="card-badge">
+                                <span class="badge-label">{{ post.published_at|date('d M Y') }}</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card__title mt-0">{{ post.title }}</h3>
+                            <div class="card-action">
+                                <ul class="card-duration d-flex align-items-center">
+                                    <li><span class="la la-user"></span>By<a href="#" class="blog-admin-name">{{ post.user.full_name }}</a></li>
+                                    <li>
+                                        <span class="la la-tags"></span>
+                                        {% for category in post.categories %}
+                                            <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                                        {% endfor %}
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                {{ post.content_html|raw }}
+                                <div class="section-block"></div>
+                                <div class="tags-item tag-widget padding-top-30px d-flex align-items-center justify-content-between">
+                                    <ul class="social-profile">
+                                        <li><span>Share:</span></li>
+                                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    {% partial 'blog/sidebar' %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

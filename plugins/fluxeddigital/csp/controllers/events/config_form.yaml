@@ -1,0 +1,10 @@
+name: Events
+form: $/fluxeddigital/csp/models/event/fields.yaml
+modelClass: FluxedDigital\Csp\Models\Event
+defaultRedirect: fluxeddigital/csp/events
+create:
+    redirect: 'fluxeddigital/csp/events/update/:id'
+    redirectClose: fluxeddigital/csp/events
+update:
+    redirect: fluxeddigital/csp/events
+    redirectClose: fluxeddigital/csp/events

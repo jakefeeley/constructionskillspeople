@@ -1,0 +1,152 @@
+description = "Single Course Details"
+==
+<section class="course-detail margin-bottom-110px">
+    <div class="container">
+        <div class="row mh-100 h-100">
+            <div class="col-lg-8">
+                <div id="CourseDetail" class="course-detail-content-wrap margin-top-100px">
+                
+                    {% if record.overview %}
+                        <div class="description-wrap margin-bottom-40px">
+                            <h3 class="widget-title">Course Overview</h3>
+                            <p class="mb-2 mt-3">
+                                {{ record.overview|raw }}
+                            </p>
+                        </div>
+                    {% endif %}
+                    
+                    {% if record.aims %}
+                    <div class="description-wrap margin-bottom-40px">
+                        <h3 class="widget-title">Course Aims</h3>
+                        <p class="mb-2 mt-3">
+                            {{ record.aims|raw }}
+                        </p>
+                    </div>
+                    {% endif %}
+                    
+                    {% if record.delivery %}
+                    <div class="description-wrap margin-bottom-40px">
+                        <h3 class="widget-title">Course Delivery</h3>
+                        <p class="mb-2 mt-3">
+                            {{ record.delivery|raw }}
+                        </p>
+                    </div>
+                    {% endif %}
+                    
+                    {% if record.location %}
+                    <div class="description-wrap margin-bottom-40px">
+                        <h3 class="widget-title">Course Location</h3>
+                        <p class="mb-2 mt-3">
+                            {{ record.location|raw }}
+                        </p>
+                    </div>
+                    {% endif %}
+                    
+                    {% if record.certification %}
+                    <div class="description-wrap margin-bottom-40px">
+                        <h3 class="widget-title">Certification</h3>
+                        <p class="mb-2 mt-3">
+                            {{ record.certification|raw }}
+                        </p>
+                    </div>
+                    {% endif %}
+                    
+                    {% if record.information %}
+                    <div class="description-wrap margin-bottom-40px">
+                        <h3 class="widget-title">Additional Information</h3>
+                        <p class="mb-2 mt-3">
+                            {{ record.information|raw }}
+                        </p>
+                    </div>
+                    {% endif %}
+                    
+                    {% if record.eligibility %}
+                    <div class="description-wrap margin-bottom-40px">
+                        <h3 class="widget-title">Delegate Eligibility / Entry Requirements</h3>
+                        <p class="mb-2 mt-3">
+                            {{ record.eligibility|raw }}
+                        </p>
+                    </div>
+                    {% endif %}
+                    
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="sidebar-component" id="sidebarCourses">
+                    <div class="sidebar" >
+                        <div class="sidebar-widget sidebar-preview">
+                            <div class="sidebar__inner">
+                               <div class="sidebar-preview-titles">
+                                   <h3 class="widget-title text-capitalize">Watch the course video</h3>
+                               </div>
+                                <div class="preview-video-and-details">
+                                    <div class="preview-course-video">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/370347278" width="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="preview-course-content">
+                                        <div class="buy-course-btn mb-3 text-center">
+                                            <a href="#" class="theme-btn w-100 mb-3">Enquire Now</a>
+                                        </div>
+                                        <div class="preview-course-incentives">
+                                            <h3 class="widget-title font-size-18">This course includes</h3>
+                                            <ul class="list-items mb-3">
+                                                <li>
+                                                    <span><i class="la la-clock-o"></i>Valid For: </span>
+                                                    <span>{{ record.valid_for}}</span>
+                                                </li>
+                                                <li>
+                                                    <span><i class="la la-calendar-o"></i>Duration: </span>
+                                                    <span>{{ record.duration }}</span>
+                                                </li>
+                                                <li>
+                                                    <span><i class="la la-file-text"></i>Accreditation: </span>
+                                                    <span>{{ record.accreditation }}</span>
+                                                </li>
+                                                <li>
+                                                    <span><i class="la la-file-pdf-o"></i><a href="{{ record.specification.path() }}" class="d-inline ">Download Specification</a></span>
+                                                </li>
+                                            </ul>
+                                            <div class="section-block"></div>
+                                            <div class="business-content pt-4">
+                                                <h3 class="widget-title mb-1 font-size-18">Training 3 or more people?</h3>
+                                                <p class="line-height-25 pb-2">Call our dedicated sales team now to gain more information on our group bookings.</p>
+                                                <div class="mt-2 mb-3"></div>
+                                                <a href="tel:08001303225"><i class="la la-phone"></i> Call Now
+                                                    <span class="phone-big">0800 130 3225</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                                <div class="sidebar-widget mt-4">
+                                    <h3 class="widget-title">Check Course Dates</h3>
+                                    <span class="section-divider"></span>
+                                    <div class="contact-form-action">
+                                        <form method="post">
+                                            <div class="form-group">
+                                                <div class='input-group date' id='datetimepicker1'>
+                                                    <input  type='text' 
+                                                            class="form-control course-dates"
+                                                            data-range="true"
+                                                            data-multiple-dates-separator=" - " 
+                                                            data-language='en'
+                                                            placeholder="{{ now|date('d/m/y')}}"/>
+                                                    <button type="button" class="submit-btn" disabled>
+                                                        <span class="la la-calendar"></span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

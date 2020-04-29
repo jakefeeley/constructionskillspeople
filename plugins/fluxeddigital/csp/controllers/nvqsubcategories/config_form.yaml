@@ -1,0 +1,10 @@
+name: NvqSubcategories
+form: $/fluxeddigital/csp/models/nvqsubcategory/fields.yaml
+modelClass: FluxedDigital\Csp\Models\NvqSubcategory
+defaultRedirect: fluxeddigital/csp/nvqsubcategories
+create:
+    redirect: 'fluxeddigital/csp/nvqsubcategories/update/:id'
+    redirectClose: fluxeddigital/csp/nvqsubcategories
+update:
+    redirect: fluxeddigital/csp/nvqsubcategories
+    redirectClose: fluxeddigital/csp/nvqsubcategories

@@ -1,0 +1,64 @@
+description = "Displays list of subcategories"
+==
+{% set records = builderList.records %}
+<section class="course-area padding-top-120px padding-bottom-120px">
+    <div class="course-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="filter-bar d-flex justify-content-between align-items-center">
+                        <ul class="filter-bar-tab nav nav-tabs align-items-center" id="myTab" role="tablist">
+                            <li class="nav-item pr-4">
+                                <a class="nav-link active icon-element" id="grid-view-tab" data-toggle="tab"
+                                    href="#" role="tab" aria-controls="grid-view"
+                                    aria-selected="true">
+                                    <span data-toggle="tooltip" data-placement="top" title="Grid View">
+                                        <i class="la la-th-large"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">Showing {{ record.subcategory.nvqs|length}} Subcategories</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="course-content-wrapper mt-4">
+                <div class="row">
+                    {% for item in record.nvq_subcategories %}
+                        <div class="col-4">
+                            <div class="card-item card-preview">
+                                <div class="card-image">
+                                    <a href="/nvqs/{{ item.nvq_category.slug }}/{{ item.slug }}" class="card__img">
+                                        <img src="{% if item.image %}{{ item.image.path() }}{% else %} https://via.placeholder.com/380x200{% endif%}" alt="">
+                                    </a>
+                                    <div class="card-badge">
+                                        <span class="badge-label">Complete From Home</span>
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card__title">
+                                        <a href="/nvqs/{{ item.nvq_category.slug }}/{{ item.slug }}">{{ item.name }}</a>
+                                    </h3>
+                                    <div class="card-action pt-3 mb-0">
+                                        <ul class="card-duration d-flex justify-content-between align-items-center">
+                                            <li>
+                                                <span class="course__meta">
+                                                    <i class="la la-sticky-note"></i> 45 Courses
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="course__meta">
+                                                    <a href="/nvqs/{{ item.nvq_category.slug }}/{{ item.slug }}">View NVQs <i class="la la-arrow-right pt-2"></i></a>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

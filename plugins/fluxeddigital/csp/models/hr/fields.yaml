@@ -1,0 +1,67 @@
+fields:
+    title:
+        label: 'Job Title'
+        span: left
+        type: text
+    slug:
+        label: Slug
+        span: right
+        preset:
+            field: title
+            type: slug
+        type: text
+tabs:
+    fields:
+        description:
+            label: 'Job Description'
+            size: large
+            span: full
+            type: richeditor
+            tab: Description
+        duties:
+            label: Duties
+            size: large
+            span: full
+            type: richeditor
+            commentAbove: 'The successful candidate will undertake the following main Duties and Responsibilities:'
+            tab: Duties
+        skills:
+            label: 'Skills Required'
+            size: large
+            span: full
+            type: richeditor
+            commentAbove: 'The ideal candidate must possess the following Skills, Experience and Qualities:'
+            tab: Skills
+        desirable_skills:
+            label: 'Desirable Skills'
+            size: large
+            span: full
+            type: richeditor
+            commentAbove: 'The ideal candidate may possess the following desirable Skills, Experience and Qualities:'
+            tab: 'Desirable Skills'
+        qualifications:
+            label: Qualifications
+            size: large
+            span: full
+            type: richeditor
+            commentAbove: 'The ideal candidate must possess the following qualifications:'
+            tab: Qualifications
+        spg:
+            label: 'Skills People Group'
+            size: large
+            span: full
+            type: richeditor
+            commentAbove: 'In return, Skills People Group will give you:'
+            tab: 'In Return We Offer'
+        other_details:
+            label: 'Other Details'
+            size: large
+            span: full
+            type: richeditor
+            tab: 'Other Details'
+        how_to_apply:
+            label: 'How to apply'
+            size: large
+            span: full
+            type: richeditor
+            tab: 'How To Apply'

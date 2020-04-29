@@ -1,0 +1,13 @@
+name: NvqCategories
+modelClass: FluxedDigital\Csp\Models\NvqCategory
+form: $/fluxeddigital/csp/models/nvqcategory/fields.yaml
+defaultRedirect: fluxeddigital/csp/nvqcategories
+create:
+    title: 'Create a new NVQ Course'
+    redirect: 'fluxeddigital/csp/nvqcategories/update/:id'
+    redirectClose: fluxeddigital/csp/nvqcategories
+update:
+    title: 'Update an existing NVQ Course'
+    redirect: fluxeddigital/csp/nvqcategories
+    redirectClose: fluxeddigital/csp/nvqcategories
+preview: {  }

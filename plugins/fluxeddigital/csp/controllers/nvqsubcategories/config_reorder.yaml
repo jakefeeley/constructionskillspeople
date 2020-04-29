@@ -1,0 +1,5 @@
+title: 'Reorder NVQ Subcategories'
+modelClass: FluxedDigital\Csp\Models\NvqSubcategory
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,15 @@
+fields:
+    title:
+        label: 'Policy Title'
+        span: full
+        placeholder: 'Enter policy name'
+        type: text
+    policy_file:
+        label: 'Upload Policy File'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

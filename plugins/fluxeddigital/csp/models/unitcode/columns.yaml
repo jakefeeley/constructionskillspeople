@@ -1,0 +1,16 @@
+columns:
+    unit:
+        label: 'Unit Code'
+        type: text
+        searchable: true
+        sortable: true
+    title:
+        label: 'Unit Title'
+        type: text
+        searchable: true
+        sortable: true
+    reference:
+        label: 'Unit Reference'
+        type: text
+        searchable: true
+        sortable: true

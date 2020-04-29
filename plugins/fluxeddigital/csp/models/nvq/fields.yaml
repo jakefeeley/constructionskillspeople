@@ -1,0 +1,116 @@
+fields:
+    title:
+        label: Title
+        span: left
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    full_title:
+        label: 'Full Title'
+        span: auto
+        type: text
+    fast_track:
+        label: 'Is this a Fast Track course?'
+        span: auto
+        type: checkbox
+    section1:
+        label: 'NVQ Details'
+        span: full
+        type: section
+    nvqcategory:
+        label: Category
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    nvq_subcategory_id:
+        label: Subcategory
+        showSearch: true
+        span: auto
+        dependsOn:
+            - nvqcategory
+        type: dropdown
+    banner:
+        label: 'Banner Upload'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+    learning_aim:
+        label: 'Learning Aim'
+        span: auto
+        hidden: 1
+        type: text
+    qcf_credits:
+        label: Credits
+        span: auto
+        hidden: 1
+        type: text
+    registration_date:
+        label: 'Registration Start Date'
+        mode: date
+        span: auto
+        hidden: 1
+        type: datepicker
+    expiry_date:
+        label: 'Registration Expiry Date'
+        mode: date
+        span: auto
+        hidden: 1
+        type: datepicker
+    programme_weighting:
+        label: 'Programme Weighting'
+        span: auto
+        hidden: 1
+        type: text
+    overview_header:
+        label: Overview
+        span: full
+        type: section
+    overview:
+        label: 'Overview Content'
+        size: large
+        span: full
+        type: richeditor
+    section2:
+        label: 'Mandatory Course Units'
+        span: full
+        type: section
+    line_item:
+        label: 'Mandatory Course Units'
+        prompt: 'Add new mandatory unit'
+        span: full
+        type: repeater
+        form:
+            fields:
+                unitcode:
+                    label: 'Unit Code'
+                    nameFrom: unit
+                    descriptionFrom: description
+                    span: full
+                    type: relation
+    section3:
+        label: 'Optional Course Units'
+        span: full
+        type: section
+    optional_line_item:
+        label: 'Optional Course Units'
+        prompt: 'Add new optional unit'
+        span: full
+        type: repeater
+        form:
+            fields:
+                unitcode:
+                    label: 'Unit Code'
+                    nameFrom: unit
+                    descriptionFrom: description
+                    span: full
+                    type: relation

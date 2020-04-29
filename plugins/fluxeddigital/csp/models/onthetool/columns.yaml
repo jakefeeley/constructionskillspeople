@@ -1,0 +1,10 @@
+columns:
+    title:
+        label: 'Article Title'
+        type: text
+        searchable: true
+    created_at:
+        label: 'Published Date'
+        type: text
+        searchable: true
+        sortable: true

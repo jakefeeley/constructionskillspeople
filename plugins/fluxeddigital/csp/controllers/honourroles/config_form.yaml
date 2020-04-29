@@ -1,0 +1,10 @@
+name: HonourRoles
+form: $/fluxeddigital/csp/models/honourrole/fields.yaml
+modelClass: FluxedDigital\Csp\Models\HonourRole
+defaultRedirect: fluxeddigital/csp/honourroles
+create:
+    redirect: 'fluxeddigital/csp/honourroles/update/:id'
+    redirectClose: fluxeddigital/csp/honourroles
+update:
+    redirect: fluxeddigital/csp/honourroles
+    redirectClose: fluxeddigital/csp/honourroles

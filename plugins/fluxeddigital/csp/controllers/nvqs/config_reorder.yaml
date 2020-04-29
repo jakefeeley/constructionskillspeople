@@ -1,0 +1,5 @@
+title: Nvqs
+modelClass: FluxedDigital\Csp\Models\Nvq
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

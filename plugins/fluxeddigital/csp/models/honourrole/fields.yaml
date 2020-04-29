@@ -1,0 +1,49 @@
+fields:
+    title:
+        label: Title
+        options:
+            Mr: Mr
+            Mrs: Mrs
+            Miss: Miss
+            Ms: Ms
+            Dr: Dr
+        span: full
+        placeholder: ''
+        type: dropdown
+    first_name:
+        label: 'First Name'
+        span: auto
+        type: text
+    last_name:
+        label: 'Last Name'
+        span: auto
+        type: text
+    enrollment_date:
+        label: 'Enrollment Date'
+        mode: date
+        span: auto
+        type: datepicker
+    graduated_date:
+        label: 'Graduation Date'
+        mode: date
+        span: auto
+        type: datepicker
+tabs:
+    fields:
+        course_id:
+            label: 'Commercial Courses'
+            nameFrom: title
+            descriptionFrom: description
+            emptyOption: 'Select Course'
+            span: full
+            hidden: 0
+            type: relation
+            tab: 'Commercial Courses'
+        nvq_id:
+            label: 'NVQ Courses'
+            nameFrom: title
+            descriptionFrom: description
+            emptyOption: 'Select Course'
+            span: full
+            type: relation
+            tab: 'NVQ Courses'

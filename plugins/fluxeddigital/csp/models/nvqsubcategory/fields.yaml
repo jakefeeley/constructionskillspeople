@@ -1,0 +1,31 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    nvq_category:
+        label: Category
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    alt_tag:
+        label: 'Image Alt Tag'
+        span: auto
+        type: text
+    image:
+        label: Image
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

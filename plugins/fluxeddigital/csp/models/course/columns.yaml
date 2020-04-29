@@ -1,0 +1,21 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    category:
+        label: Category
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: category
+    accreditation:
+        label: Accreditation
+        type: text
+        searchable: true
+        sortable: true
+    id:
+        label: ID
+        type: number

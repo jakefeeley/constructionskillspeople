@@ -1,0 +1,290 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table fluxeddigital_csp_courses'
+    - builder_table_create_fluxeddigital_csp_courses.php
+1.0.3:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses.php
+1.0.4:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_2.php
+1.0.5:
+    - 'Created table fluxeddigital_csp_course_category'
+    - builder_table_create_fluxeddigital_csp_course_category.php
+1.0.6:
+    - 'Updated table fluxeddigital_csp_course_category'
+    - builder_table_update_fluxeddigital_csp_course_category.php
+1.0.7:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_3.php
+1.0.8:
+    - 'Updated table fluxeddigital_csp_course_category'
+    - builder_table_update_fluxeddigital_csp_category.php
+1.0.9:
+    - 'Updated table fluxeddigital_csp_category'
+    - builder_table_update_fluxeddigital_csp_course_categories.php
+1.0.10:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_4.php
+1.0.11:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_5.php
+1.0.12:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_6.php
+1.0.13:
+    - 'Updated table fluxeddigital_csp_course_categories'
+    - builder_table_update_fluxeddigital_csp_course_categories_2.php
+1.0.14:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_7.php
+1.0.15:
+    - 'Created table fluxeddigital_csp_nvq'
+    - builder_table_create_fluxeddigital_csp_nvq.php
+1.0.16:
+    - 'Updated table fluxeddigital_csp_nvq'
+    - builder_table_update_fluxeddigital_csp_nvq.php
+1.0.17:
+    - 'Updated table fluxeddigital_csp_nvq'
+    - builder_table_update_fluxeddigital_csp_nvq_2.php
+1.0.18:
+    - 'Updated table fluxeddigital_csp_nvq'
+    - builder_table_update_fluxeddigital_csp_nvq_3.php
+1.0.19:
+    - 'Updated table fluxeddigital_csp_nvq'
+    - builder_table_update_fluxeddigital_csp_nvq_4.php
+1.0.20:
+    - 'Updated table fluxeddigital_csp_nvq'
+    - builder_table_update_fluxeddigital_csp_nvqs.php
+1.0.21:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_2.php
+1.0.22:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_3.php
+1.0.23:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_4.php
+1.0.24:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_5.php
+1.0.25:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_6.php
+1.0.26:
+    - 'Created table fluxeddigital_csp_course_codes'
+    - builder_table_create_fluxeddigital_csp_course_codes.php
+1.0.27:
+    - 'Updated table fluxeddigital_csp_course_codes'
+    - builder_table_update_fluxeddigital_csp_course_codes.php
+1.0.28:
+    - 'Updated table fluxeddigital_csp_course_codes'
+    - builder_table_update_fluxeddigital_csp_unit_codes.php
+1.0.29:
+    - 'Updated table fluxeddigital_csp_unit_codes'
+    - builder_table_update_fluxeddigital_csp_unit_codes_2.php
+1.0.30:
+    - 'Updated table fluxeddigital_csp_unit_codes'
+    - builder_table_update_fluxeddigital_csp_unit_codes_3.php
+1.0.31:
+    - 'Created table fluxeddigital_csp_nvq_categories'
+    - builder_table_create_fluxeddigital_csp_nvq_categories.php
+1.0.32:
+    - 'Updated table fluxeddigital_csp_nvq_categories'
+    - builder_table_update_fluxeddigital_csp_nvq_categories.php
+1.0.33:
+    - 'Updated table fluxeddigital_csp_nvq_categories'
+    - builder_table_update_fluxeddigital_csp_nvq_categories_2.php
+1.0.34:
+    - 'Updated table fluxeddigital_csp_nvq_categories'
+    - builder_table_update_fluxeddigital_csp_nvq_categories_3.php
+1.0.35:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_7.php
+1.0.36:
+    - 'Updated table fluxeddigital_csp_unit_codes'
+    - builder_table_update_fluxeddigital_csp_unit_codes_4.php
+1.0.37:
+    - 'Created table fluxeddigital_csp_events'
+    - builder_table_create_fluxeddigital_csp_events.php
+1.0.38:
+    - 'Updated table fluxeddigital_csp_events'
+    - builder_table_update_fluxeddigital_csp_events.php
+1.0.39:
+    - 'Created table fluxeddigital_csp_event_locations'
+    - builder_table_create_fluxeddigital_csp_event_locations.php
+1.0.40:
+    - 'Updated table fluxeddigital_csp_event_locations'
+    - builder_table_update_fluxeddigital_csp_event_locations.php
+1.0.41:
+    - 'Updated table fluxeddigital_csp_event_locations'
+    - builder_table_update_fluxeddigital_csp_event_locations_2.php
+1.0.42:
+    - 'Created table fluxeddigital_csp_policies'
+    - builder_table_create_fluxeddigital_csp_policies.php
+1.0.43:
+    - 'Updated table fluxeddigital_csp_policies'
+    - builder_table_update_fluxeddigital_csp_policies.php
+1.0.44:
+    - 'Updated table fluxeddigital_csp_policies'
+    - builder_table_update_fluxeddigital_csp_policies_2.php
+1.0.45:
+    - 'Created table fluxeddigital_csp_hr'
+    - builder_table_create_fluxeddigital_csp_hr.php
+1.0.46:
+    - 'Updated table fluxeddigital_csp_hr'
+    - builder_table_update_fluxeddigital_csp_hr.php
+1.0.47:
+    - 'Updated table fluxeddigital_csp_hr'
+    - builder_table_update_fluxeddigital_csp_hr_2.php
+1.0.48:
+    - 'Updated table fluxeddigital_csp_hr'
+    - builder_table_update_fluxeddigital_csp_hr_3.php
+1.0.49:
+    - 'Updated table fluxeddigital_csp_events'
+    - builder_table_update_fluxeddigital_csp_events_2.php
+1.0.50:
+    - 'Updated table fluxeddigital_csp_policies'
+    - builder_table_update_fluxeddigital_csp_policies_3.php
+1.0.51:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_8.php
+1.0.52:
+    - 'Updated table fluxeddigital_csp_unit_codes'
+    - builder_table_update_fluxeddigital_csp_unit_codes_5.php
+1.0.53:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_8.php
+1.0.54:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_9.php
+1.0.55:
+    - 'Updated table fluxeddigital_csp_unit_codes'
+    - builder_table_update_fluxeddigital_csp_unit_codes_6.php
+1.0.56:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_10.php
+1.0.57:
+    - 'Updated table fluxeddigital_csp_nvq_categories'
+    - builder_table_update_fluxeddigital_csp_nvq_categories_4.php
+1.0.58:
+    - 'Updated table fluxeddigital_csp_nvq_categories'
+    - builder_table_update_fluxeddigital_csp_nvq_categories_5.php
+1.0.59:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_11.php
+1.0.60:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_9.php
+1.0.61:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_10.php
+1.0.62:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_11.php
+1.0.63:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_12.php
+1.0.64:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_13.php
+1.0.65:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_12.php
+1.0.66:
+    - 'Updated table fluxeddigital_csp_hr'
+    - builder_table_update_fluxeddigital_csp_hr_4.php
+1.0.67:
+    - 'Created table fluxeddigital_csp_on_the_tools'
+    - builder_table_create_fluxeddigital_csp_on_the_tools.php
+1.0.68:
+    - 'Updated table fluxeddigital_csp_on_the_tools'
+    - builder_table_update_fluxeddigital_csp_on_the_tools.php
+1.0.69:
+    - 'Updated table fluxeddigital_csp_on_the_tools'
+    - builder_table_update_fluxeddigital_csp_on_the_tools_2.php
+1.0.70:
+    - 'Updated table fluxeddigital_csp_on_the_tools'
+    - builder_table_update_fluxeddigital_csp_on_the_tools_3.php
+1.0.71:
+    - 'Updated table fluxeddigital_csp_on_the_tools'
+    - builder_table_update_fluxeddigital_csp_on_the_tools_4.php
+1.0.72:
+    - 'Updated table fluxeddigital_csp_on_the_tools'
+    - builder_table_update_fluxeddigital_csp_on_the_tools_5.php
+1.0.73:
+    - 'Created table fluxeddigital_csp_honour_role'
+    - builder_table_create_fluxeddigital_csp_honour_role.php
+1.0.74:
+    - 'Updated table fluxeddigital_csp_honour_role'
+    - builder_table_update_fluxeddigital_csp_honour_role.php
+1.0.75:
+    - 'Updated table fluxeddigital_csp_honour_role'
+    - builder_table_update_fluxeddigital_csp_honour_role_2.php
+1.0.76:
+    - 'Updated table fluxeddigital_csp_honour_role'
+    - builder_table_update_fluxeddigital_csp_honour_role_3.php
+1.0.77:
+    - 'Updated table fluxeddigital_csp_honour_role'
+    - builder_table_update_fluxeddigital_csp_honour_role_4.php
+1.0.78:
+    - 'Updated table fluxeddigital_csp_honour_role'
+    - builder_table_update_fluxeddigital_csp_honour_role_5.php
+1.0.79:
+    - 'Updated table fluxeddigital_csp_honour_role'
+    - builder_table_update_fluxeddigital_csp_honour_role_6.php
+1.0.80:
+    - 'Updated table fluxeddigital_csp_honour_role'
+    - builder_table_update_fluxeddigital_csp_honour_role_7.php
+1.0.81:
+    - 'Updated table fluxeddigital_csp_honour_role'
+    - builder_table_update_fluxeddigital_csp_honour_role_8.php
+1.0.82:
+    - 'Updated table fluxeddigital_csp_honour_role'
+    - builder_table_update_fluxeddigital_csp_honour_role_9.php
+1.0.83:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_13.php
+1.0.84:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_14.php
+1.0.85:
+    - 'Created table fluxeddigital_csp_nvq_subcategories'
+    - builder_table_create_fluxeddigital_csp_nvq_subcategories.php
+1.0.86:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_15.php
+1.0.87:
+    - 'Updated table fluxeddigital_csp_nvq_subcategories'
+    - builder_table_update_fluxeddigital_csp_nvq_subcategories.php
+1.0.88:
+    - 'Updated table fluxeddigital_csp_nvq_subcategories'
+    - builder_table_update_fluxeddigital_csp_nvq_subcategories_2.php
+1.0.89:
+    - 'Updated table fluxeddigital_csp_nvq_categories'
+    - builder_table_update_fluxeddigital_csp_nvq_categories_6.php
+1.0.90:
+    - 'Updated table fluxeddigital_csp_nvq_categories'
+    - builder_table_update_fluxeddigital_csp_nvq_categories_7.php
+1.0.91:
+    - 'Updated table fluxeddigital_csp_nvq_categories'
+    - builder_table_update_fluxeddigital_csp_nvq_categories_8.php
+1.0.92:
+    - 'Updated table fluxeddigital_csp_nvq_subcategories'
+    - builder_table_update_fluxeddigital_csp_nvq_subcategories_3.php
+1.0.93:
+    - 'Updated table fluxeddigital_csp_nvqs'
+    - builder_table_update_fluxeddigital_csp_nvqs_16.php
+1.0.94:
+    - 'Updated table fluxeddigital_csp_nvq_subcategories'
+    - builder_table_update_fluxeddigital_csp_nvq_subcategories_4.php
+1.0.95:
+    - 'Updated table fluxeddigital_csp_nvq_categories'
+    - builder_table_update_fluxeddigital_csp_nvq_categories_9.php
+1.0.96:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_14.php
+1.0.97:
+    - 'Updated table fluxeddigital_csp_courses'
+    - builder_table_update_fluxeddigital_csp_courses_15.php

@@ -1,0 +1,10 @@
+name: Categories
+form: $/fluxeddigital/csp/models/category/fields.yaml
+modelClass: FluxedDigital\Csp\Models\Category
+defaultRedirect: fluxeddigital/csp/categories
+create:
+    redirect: 'fluxeddigital/csp/categories/update/:id'
+    redirectClose: fluxeddigital/csp/categories
+update:
+    redirect: fluxeddigital/csp/categories
+    redirectClose: fluxeddigital/csp/categories

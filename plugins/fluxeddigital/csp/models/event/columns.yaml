@@ -1,0 +1,23 @@
+columns:
+    title:
+        label: Course
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: course_relation
+    location:
+        label: Location
+        type: text
+        searchable: true
+        sortable: true
+    start_date:
+        label: 'Start Date'
+        type: text
+        searchable: true
+        sortable: true
+    price:
+        label: Price
+        type: text
+        searchable: true
+        sortable: true

@@ -1,0 +1,36 @@
+title = "Course Types"
+url = "/courses"
+layout = "_main-layout"
+is_hidden = 0
+
+[builderList]
+modelClass = "FluxedDigital\Csp\Models\Category"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<section id="{{ this.page.title|replace({' ': '' }) }}" class="breadcrumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-content">
+                    <div class="section-heading">
+                        <h2 class="section__title">
+                            Courses
+                        </h2>
+                    </div>
+                    <ul class="breadcrumb__list">
+                        <li class="active__list-item"><a href="/">Home</a></li>
+                        <li class="active__list-item"><a href="/courses">Courses</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% partial 'courses/course-types' %}

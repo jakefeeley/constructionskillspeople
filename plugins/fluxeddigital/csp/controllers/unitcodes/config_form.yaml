@@ -1,0 +1,13 @@
+name: UnitCodes
+modelClass: FluxedDigital\Csp\Models\UnitCode
+form: $/fluxeddigital/csp/models/unitcode/fields.yaml
+defaultRedirect: fluxeddigital/csp/unitcodes
+create:
+    title: 'Add a new NVQ Unit Code'
+    redirect: 'fluxeddigital/csp/unitcodes/update/:id'
+    redirectClose: fluxeddigital/csp/unitcodes
+update:
+    title: 'Update an existing NVQ Unit Code'
+    redirect: fluxeddigital/csp/unitcodes
+    redirectClose: fluxeddigital/csp/unitcodes
+preview: {  }

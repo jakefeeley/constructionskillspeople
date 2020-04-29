@@ -1,0 +1,54 @@
+description = "Displays side bar on Single Post"
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog/category"
+==
+<div class="sidebar" id="sidebar">
+    <div class="sidebar__inner">
+        <div class="sidebar-widget">
+            <h3 class="widget-title">Search Form</h3>
+            <span class="section-divider"></span>
+            <div class="contact-form-action">
+                <form method="post">
+                    <div class="form-group">
+                        <input class="form-control" type="search" name="search" placeholder="Search here...">
+                        <button type="button" class="search-icon"><span class="la la-search"></span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="sidebar-widget category-widget">
+            <h3 class="widget-title">Categories</h3>
+            <span class="section-divider"></span>
+            <ul class="filter-by-category">
+                {% for category in categories %}
+                    {% set postCount = category.post_count %}
+                    <li {% if category.slug == currentCategorySlug %}class="active"{% endif %}>
+                        <div class="custom-checkbox">
+                            <label for="chb2" class="primary-color">
+                                <a class="primary-color" href="{{ category.url }}">{{ category.name }}</a> 
+                                {% if postCount %}
+                                    <span class="ml-2 font-size-14 primary-color-3">{{ postCount }}</span>
+                                {% endif %}
+                            </label>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="sidebar-widget">
+            <h3 class="widget-title">Subscribe</h3>
+            <span class="section-divider"></span>
+            <div class="contact-form-action">
+                <form method="post">
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" placeholder="Enter email address">
+                        <button type="button" class="submit-btn"><span class="la la-arrow-right"></span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

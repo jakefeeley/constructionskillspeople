@@ -1,0 +1,21 @@
+description = "Displays a list of documents"
+==
+<section class="faq-area section-bg section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-md-2">
+                <div class="faq-body">
+                    {% for item in records %}
+                    <a href="{{ item.policy_file.path() }}" target="_blank">
+                        <div class="faq-panel">
+                            <div class="faq-heading">
+                                <h4 class="faq__title">{{ item.title }} <i class="fa fa-angle-right"></i></h4>
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

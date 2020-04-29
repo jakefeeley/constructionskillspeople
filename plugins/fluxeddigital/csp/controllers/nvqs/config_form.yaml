@@ -1,0 +1,11 @@
+name: Nvqs
+modelClass: FluxedDigital\Csp\Models\Nvq
+form: $/fluxeddigital/csp/models/nvq/fields.yaml
+defaultRedirect: fluxeddigital/csp/nvqs
+create:
+    redirect: 'fluxeddigital/csp/nvqs/update/:id'
+    redirectClose: fluxeddigital/csp/nvqs
+update:
+    redirect: fluxeddigital/csp/nvqs
+    redirectClose: fluxeddigital/csp/nvqs
+preview: {  }

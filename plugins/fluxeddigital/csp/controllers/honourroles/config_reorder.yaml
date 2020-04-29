@@ -1,0 +1,4 @@
+title: HonourRoles
+modelClass: FluxedDigital\Csp\Models\HonourRole
+toolbar:
+    buttons: reorder_toolbar

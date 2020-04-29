@@ -1,0 +1,20 @@
+columns:
+    title:
+        label: 'Course Name'
+        type: text
+        searchable: true
+        sortable: true
+    nvqcategory_id:
+        label: Category
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: nvqcategory
+    nvq_subcategory_id:
+        label: 'Sub Category'
+        type: text
+        searchable: true
+        sortable: true
+        select: name
+        relation: nvq_subcategory

@@ -1,0 +1,10 @@
+name: HR
+form: $/fluxeddigital/csp/models/hr/fields.yaml
+modelClass: FluxedDigital\Csp\Models\HR
+defaultRedirect: fluxeddigital/csp/hr
+create:
+    redirect: 'fluxeddigital/csp/hr/update/:id'
+    redirectClose: fluxeddigital/csp/hr
+update:
+    redirect: fluxeddigital/csp/hr
+    redirectClose: fluxeddigital/csp/hr

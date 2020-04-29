@@ -1,0 +1,169 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        placeholder: 'Enter course title'
+        default: ''
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    short_course_title:
+        label: 'Short Course Name'
+        span: auto
+        type: text
+tabs:
+    fields:
+        accreditation:
+            label: Accreditation
+            span: auto
+            placeholder: Accreditation
+            default: ''
+            type: text
+            tab: 'Course Information'
+        valid_for:
+            label: 'Valid for'
+            span: auto
+            placeholder: 'Valid for'
+            default: ''
+            type: text
+            tab: 'Course Information'
+        duration:
+            label: Duration
+            span: auto
+            placeholder: 'Duration of course'
+            default: ''
+            type: text
+            tab: 'Course Information'
+        category:
+            label: 'Course Category'
+            nameFrom: title
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: 'Course Information'
+        specification:
+            label: 'Upload Course PDF'
+            span: auto
+            mode: file
+            useCaption: 0
+            thumbOptions:
+                mode: crop
+                extension: auto
+            type: fileupload
+            tab: 'Course Information'
+        meta_title:
+            label: Text
+            span: full
+            placeholder: 'Meta Title'
+            default: 'null'
+            type: text
+            tab: SEO
+        meta_description:
+            label: 'Meta Description'
+            size: large
+            span: full
+            placeholder: 'Meta Description'
+            default: 'null'
+            type: textarea
+            tab: SEO
+        banner:
+            label: 'Banner Image'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: left
+            type: fileupload
+            commentAbove: 'Upload Banner Image'
+            tab: Media
+        banner_alt:
+            label: 'Alt Tag'
+            span: right
+            type: text
+            commentAbove: 'Add your alt tag'
+            tab: Media
+        video_url:
+            label: 'Video URL'
+            span: auto
+            type: text
+            tab: Media
+        tags:
+            label: 'Search Tags'
+            mode: array
+            separator: comma
+            customTags: true
+            useKey: false
+            span: full
+            type: taglist
+            tab: Tags
+secondaryTabs:
+    fields:
+        overview:
+            label: 'Course Overview'
+            size: large
+            span: full
+            placeholder: 'Course Overview'
+            default: ''
+            type: richeditor
+            tab: Overview
+        who_should_attend:
+            label: 'Who should attend'
+            size: large
+            span: full
+            placeholder: 'Who Should Attend'
+            type: richeditor
+            tab: 'Who Should Attend'
+        assessment:
+            label: Assessment
+            size: large
+            span: full
+            placeholder: Assessment
+            default: ''
+            type: richeditor
+            tab: Assessment
+        certification:
+            label: Certification
+            size: large
+            span: full
+            placeholder: Certification
+            default: ''
+            type: richeditor
+            tab: Certification
+        information:
+            label: 'More Information'
+            size: large
+            span: full
+            placeholder: 'Add extra details about this course'
+            default: ''
+            type: richeditor
+            tab: 'More Information'
+        aims:
+            label: 'Aims & Objectives'
+            size: large
+            span: full
+            type: richeditor
+            tab: Aims
+        delivery:
+            label: 'Course Delivery'
+            size: large
+            span: full
+            type: richeditor
+            tab: 'Course Delivery'
+        location:
+            label: Location
+            size: large
+            span: full
+            type: richeditor
+            tab: Location
+        eligibility:
+            label: 'Delegate Eligibility'
+            span: full
+            size: large
+            type: richeditor
+            tab: 'Delegate Eligibility'

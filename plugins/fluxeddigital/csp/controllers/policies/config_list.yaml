@@ -1,0 +1,12 @@
+list: $/fluxeddigital/csp/models/policy/columns.yaml
+modelClass: FluxedDigital\Csp\Models\Policy
+title: Policies
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'fluxeddigital/csp/policies/update/:id'

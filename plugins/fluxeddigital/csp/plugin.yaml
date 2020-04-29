@@ -1,0 +1,53 @@
+plugin:
+    name: 'fluxeddigital.csp::lang.plugin.name'
+    description: 'fluxeddigital.csp::lang.plugin.description'
+    author: 'Fluxed Digital'
+    icon: oc-icon-gear
+    homepage: ''
+navigation:
+    csp-couses:
+        label: Courses
+        url: fluxeddigital/csp/courses
+        icon: icon-newspaper-o
+        sideMenu:
+            csp-couses:
+                label: Courses
+                url: fluxeddigital/csp/courses
+                icon: icon-newspaper-o
+            course-category-menu:
+                label: Categories
+                url: fluxeddigital/csp/categories
+                icon: icon-book
+            menu-side-events:
+                label: 'Open Courses'
+                url: fluxeddigital/csp/events
+                icon: icon-group
+    nvq-menu-item:
+        label: NVQ
+        url: fluxeddigital/csp/nvqs
+        icon: icon-user
+        sideMenu:
+            nvq-course-menu:
+                label: 'NVQ''s'
+                url: fluxeddigital/csp/nvqs
+                icon: icon-book
+            unit-codes-menu:
+                label: 'Unit Codes'
+                url: fluxeddigital/csp/unitcodes
+                icon: icon-code
+            nvq-category-menu:
+                label: Categories
+                url: fluxeddigital/csp/nvqcategories
+                icon: icon-book
+            nvq-subcategory-menu:
+                label: Subcategories
+                url: fluxeddigital/csp/nvqsubcategories
+                icon: icon-sitemap
+    main-menu-hr:
+        label: HR
+        url: fluxeddigital/csp/hr
+        icon: icon-life-ring
+    main-menu-documents:
+        label: Documents
+        url: fluxeddigital/csp/policies
+        icon: icon-pencil

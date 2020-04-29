@@ -1,0 +1,10 @@
+name: OnTheTools
+form: $/fluxeddigital/csp/models/onthetool/fields.yaml
+modelClass: FluxedDigital\Csp\Models\OnTheTool
+defaultRedirect: fluxeddigital/csp/onthetools
+create:
+    redirect: 'fluxeddigital/csp/onthetools/update/:id'
+    redirectClose: fluxeddigital/csp/onthetools
+update:
+    redirect: fluxeddigital/csp/onthetools
+    redirectClose: fluxeddigital/csp/onthetools

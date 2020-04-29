@@ -1,0 +1,10 @@
+name: Policies
+form: $/fluxeddigital/csp/models/policy/fields.yaml
+modelClass: FluxedDigital\Csp\Models\Policy
+defaultRedirect: fluxeddigital/csp/policies
+create:
+    redirect: 'fluxeddigital/csp/policies/update/:id'
+    redirectClose: fluxeddigital/csp/policies
+update:
+    redirect: fluxeddigital/csp/policies
+    redirectClose: fluxeddigital/csp/policies

@@ -1,0 +1,29 @@
+fields:
+    title:
+        label: 'Category Title'
+        span: auto
+        placeholder: 'Enter category title'
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        placeholder: 'Enter category slug'
+        preset:
+            field: title
+            type: slug
+        type: text
+    description:
+        label: 'Category Description'
+        size: small
+        span: full
+        placeholder: 'Enter category description'
+        type: textarea
+    featured_img:
+        label: 'Landing Page Image'
+        mode: image
+        useCaption: 0
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload

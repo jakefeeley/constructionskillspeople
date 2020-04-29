@@ -1,0 +1,61 @@
+fields:
+    title:
+        label: 'Category Title'
+        span: auto
+        placeholder: 'Enter category title'
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: title
+            type: url
+        type: text
+tabs:
+    fields:
+        header_line_1:
+            label: 'Line 1'
+            span: full
+            type: text
+            tab: Header
+        header_line_2:
+            label: 'Line 2'
+            span: full
+            type: text
+            tab: Header
+        header_line_3:
+            label: 'Line 3'
+            span: full
+            type: text
+            tab: Header
+        header_line_4:
+            label: 'Line 4'
+            span: full
+            type: text
+            tab: Header
+        header_line_5:
+            label: 'Line 5'
+            span: full
+            type: text
+            tab: Header
+        description:
+            label: 'Category Description'
+            size: small
+            span: full
+            type: textarea
+            tab: Header
+        featured_img:
+            label: 'Featured Image'
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: Media
+        video:
+            label: 'Video URL'
+            span: auto
+            type: text
+            tab: Media

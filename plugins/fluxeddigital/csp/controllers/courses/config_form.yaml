@@ -1,0 +1,10 @@
+name: Courses
+form: $/fluxeddigital/csp/models/course/fields.yaml
+modelClass: FluxedDigital\Csp\Models\Course
+defaultRedirect: fluxeddigital/csp/courses
+create:
+    redirect: 'fluxeddigital/csp/courses/update/:id'
+    redirectClose: fluxeddigital/csp/courses
+update:
+    redirect: fluxeddigital/csp/courses
+    redirectClose: fluxeddigital/csp/courses

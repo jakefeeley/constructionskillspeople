@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: 'Job Title'
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: 'Posted Date'
+        type: text
+        searchable: true
+        sortable: true

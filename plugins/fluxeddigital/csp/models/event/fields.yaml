@@ -1,0 +1,24 @@
+fields:
+    start_date:
+        label: 'Start Date'
+        mode: date
+        span: auto
+        type: datepicker
+    price:
+        label: Price
+        span: auto
+        type: text
+    location:
+        label: Location
+        span: auto
+        type: text
+    delegates:
+        label: Delegates
+        span: auto
+        type: number
+    course_relation:
+        label: Course
+        span: full
+        nameFrom: title
+        descriptionFrom: description
+        type: relation

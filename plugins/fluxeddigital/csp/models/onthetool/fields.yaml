@@ -1,0 +1,49 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        placeholder: 'Enter the name of the On The Tools Article'
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    link:
+        label: 'Article Link'
+        span: left
+        placeholder: 'Enter the link to the original On The Tools Article'
+        type: text
+    type:
+        label: 'Content Type'
+        span: right
+        options:
+            Article: Article
+            Video: Video
+            Image: Image
+        type: dropdown
+    description:
+        label: 'Article Content'
+        size: large
+        span: full
+        type: richeditor
+    section1:
+        label: Media
+        span: full
+        type: section
+    image:
+        label: 'Cover Image'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+    embed:
+        label: 'Embed Media'
+        size: small
+        span: full
+        type: textarea

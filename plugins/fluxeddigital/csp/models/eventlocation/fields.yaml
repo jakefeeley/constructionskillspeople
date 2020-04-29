@@ -1,0 +1,49 @@
+tabs:
+    fields:
+        title:
+            label: Text
+            span: full
+            type: text
+            tab: General
+        description:
+            label: Description
+            size: small
+            span: auto
+            type: textarea
+            tab: General
+        map:
+            label: Map
+            span: auto
+            size: small
+            type: textarea
+            tab: General
+        address_line_1:
+            label: 'Line 1'
+            span: auto
+            type: text
+            tab: Address
+        address_line_2:
+            label: 'Line 2'
+            span: auto
+            type: text
+            tab: Address
+        address_line_3:
+            label: 'Line 3'
+            span: auto
+            type: text
+            tab: Address
+        address_town:
+            label: 'Town / City'
+            span: auto
+            type: text
+            tab: Address
+        address_county:
+            label: County
+            span: auto
+            type: text
+            tab: Address
+        address_postcode:
+            label: Postcode
+            span: auto
+            type: text
+            tab: Address

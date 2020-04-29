@@ -1,0 +1,36 @@
+fields:
+    title:
+        label: 'Unit Title'
+        span: full
+        placeholder: 'Enter unit title'
+        type: text
+    unit:
+        label: 'Unit Code'
+        span: auto
+        placeholder: 'Enter unit code'
+        type: text
+    credits:
+        label: Credits
+        span: auto
+        placeholder: 'Enter unit credit'
+        type: text
+    glh:
+        label: GLH
+        span: auto
+        placeholder: 'Enter GLH value'
+        type: text
+    level:
+        label: Level
+        span: auto
+        placeholder: 'Enter unit level'
+        type: text
+    reference:
+        label: 'Reference Number'
+        span: full
+        placeholder: 'Enter unit reference number'
+        type: text
+    outcomes:
+        label: 'Learning Outcomes'
+        size: large
+        span: full
+        type: textarea

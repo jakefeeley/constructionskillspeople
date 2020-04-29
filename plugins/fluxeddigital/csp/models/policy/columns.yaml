@@ -1,0 +1,6 @@
+columns:
+    title:
+        label: 'Policy Name'
+        type: text
+        searchable: true
+        sortable: true
