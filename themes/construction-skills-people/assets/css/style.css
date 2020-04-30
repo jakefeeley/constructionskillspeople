@@ -6649,6 +6649,11 @@ body {
 	z-index: -1
 }
 
+.blog-details img {
+	max-width: 100%;
+	height: auto;
+}
+
 @media(max-width:1199px) {
 	.blog-area:before,
 	.blog-area:after {
